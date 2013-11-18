@@ -1,0 +1,38 @@
+################
+# Requirements #
+################
+
+The only requirements are:
+
+	- Current version of PHP/Apache
+	- Mysql
+	- An SMTP relay server (only if you want email alerts)
+
+Tested on ubuntu/debian systems
+
+################
+# Installation #
+################
+
+1. Place contents of the dracker folder in the webroot, example:
+	
+	/var/www/dracker/
+	
+2. Create a database for Dracker within MySQL. Import the Dracker MySQL dump to create the database:
+
+	>mysql -u <dbuser> -p dracker < dracker.sql
+
+3. Configure the Dracker PHP Database connection to reflect your mysql account details, located under (example):
+
+	/var/www/dracker/configs/DatabaseConnection.php
+
+   There is also another file under the /configs/ directory, EncryptionKey.php. Edit the key before you begin using Dracker. Its really just used to encrypt certain data within the database.
+
+If all went well you can browse to the newly setup web interface via your browser. The default admin account to login with is:
+
+	User: admin
+	Pwd:  admin (Please reset the account immediately)
+
+Enjoy
+
+

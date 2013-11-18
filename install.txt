@@ -35,4 +35,7 @@ If all went well you can browse to the newly setup web interface via your browse
 
 Enjoy
 
+more details can be found at:
+
+	http://infosecscapes.blogspot.com/2013/11/document-tracking-and-tracing.html
 

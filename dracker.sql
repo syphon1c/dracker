@@ -79,7 +79,7 @@ CREATE TABLE `settings_smtp` (
   `sys_default` varchar(1) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
+/*!40101 SET character_set_client = @saved_cs_client */
 
 --
 -- Table structure for table `user_account`

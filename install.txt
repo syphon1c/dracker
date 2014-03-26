@@ -27,6 +27,7 @@ Tested on ubuntu/debian systems
 	/var/www/dracker/configs/DatabaseConnection.php
 
    There is also another file under the /configs/ directory, EncryptionKey.php. Edit the key before you begin using Dracker. Its really just used to encrypt certain data within the database.
+   Then you mut also set permissions under the template folder so that the Dracker application can write temporary .doc files to the folder. (chmod)
 
 If all went well you can browse to the newly setup web interface via your browser. The default admin account to login with is:
 
